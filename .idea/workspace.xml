@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fe89c6b-9691-4f44-8b3f-a193aec1ffaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FirewallAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LegacyFirewall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecurityLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlyMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Journal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovementStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SwimMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalkMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/GameTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/GameTicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 2/journal.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 2/journal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/Journal.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/Journal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/SimpleEnemyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/SimpleEnemyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/Skeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/Skeleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Goblin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Goblin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Journal.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Journal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/SimpleEnemyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Skeleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Skeleton.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3KFPVIHuMYsXpA2jREhcKYALb7l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jaide/OneDrive/Documents/Design Patterns/Week 7",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jaide\OneDrive\Documents\Design Patterns\Week 7\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Week 7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fe89c6b-9691-4f44-8b3f-a193aec1ffaa" name="Changes" comment="" />
+      <created>1791150367307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791150367307</updated>
+    </task>
+    <servers />
+  </component>
+</project>
