@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fe89c6b-9691-4f44-8b3f-a193aec1ffaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/journal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FirewallAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LegacyFirewall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecurityLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week 7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandCenteerFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlyMove.java" beforeDir="false" />
@@ -39,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/SimpleEnemyFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Skeleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 4/out/production/Week 4/Skeleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

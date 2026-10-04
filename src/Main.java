@@ -1,43 +1,59 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // Phase 1 - Adapter Pattern
+        Scanner scanner = new Scanner(System.in);
+
+        // Adapter Pattern setup
         LegacyFirewall legacyFirewall = new LegacyFirewall();
         SecurityLog securityLog = new FirewallAdapter(legacyFirewall);
 
-        securityLog.logEvent("Unauthorized login attempt detected.");
-        securityLog.setSeverity(3);
+        System.out.print("Enter a security event message: ");
+        String message = scanner.nextLine();
 
-        // Phase 2 - Create subsystem objects
+        System.out.print("Enter severity level: ");
+        int severity = scanner.nextInt();
+        scanner.nextLine();
+
+        securityLog.logEvent(message);
+        securityLog.setSeverity(severity);
+
+        // Facade Pattern setup
         NetworkTrafficController network = new NetworkTrafficController();
         UserAccessManager accessManager = new UserAccessManager();
         EncryptionService encryption = new EncryptionService();
 
-        List<String> compromisedUsers = Arrays.asList(
-                "admin_temp",
-                "guest_user_1",
-                "service_acct"
-        );
+        CommandCenterFacade commandCenter =
+                new CommandCenterFacade(network, accessManager, encryption);
 
-        // Emergency Breach
-        System.out.println("\n--- EMERGENCY BREACH ---");
+        // User chooses security mode
+        System.out.println("\nChoose a security mode:");
+        System.out.println("1. Lockdown");
+        System.out.println("2. Lift Lockdown");
+        System.out.println("3. Maintenance");
+        System.out.print("Enter choice: ");
 
-        network.blockPort(8080);
-        network.blockPort(443);
-        accessManager.lockUserAccounts(compromisedUsers);
-        encryption.encryptDatabase("Customer_Records");
-        network.divertTraffic();
+        int choice = scanner.nextInt();
 
-        // All-Clear
-        System.out.println("\n--- ALL-CLEAR ---");
+        switch (choice) {
+            case 1:
+                commandCenter.initiateEmergencyLockdown();
+                break;
 
-        network.unblockPort(8080);
-        network.unblockPort(443);
-        accessManager.unlockUserAccounts(compromisedUsers);
-        encryption.decryptDatabase("Customer_Records");
+            case 2:
+                commandCenter.liftEmergencyLockdown();
+                break;
+
+            case 3:
+                commandCenter.enableMaintenanceMode();
+                break;
+
+            default:
+                System.out.println("Invalid security mode.");
+        }
+
+        scanner.close();
     }
 }
